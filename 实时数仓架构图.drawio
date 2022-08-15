@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T06:48:34.645Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="jFpzqFKEWoZRx_NYNr5X" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T06:51:07.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="HP92_q7X-53WavOh9BXs" version="20.2.3" type="github">
   <diagram id="mUF7Dhoywo7Pxl9o-WP5" name="第 1 页">
     <mxGraphModel dx="1384" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -9,10 +9,10 @@
             <mxPoint x="250" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-1" value="web/app业务交互" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-1" value="web/app业务交互" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-4" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-4" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-9">
@@ -27,16 +27,16 @@
             <mxPoint x="440" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-8" value="业务服务器&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-8" value="业务服务器&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="440" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-9" value="业务服务器&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-9" value="业务服务器&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="440" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-10" target="dPiE7eh1zPIa-c6Ro65R-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-10" value="业务数据&lt;br&gt;(mysql)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-10" value="业务数据&lt;br&gt;(mysql)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="620" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-8">
@@ -54,13 +54,13 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-15" target="dPiE7eh1zPIa-c6Ro65R-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-15" value="每日全量&lt;br&gt;DataX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-15" value="每日全量&lt;br&gt;DataX" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="840" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-17" target="dPiE7eh1zPIa-c6Ro65R-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-17" value="web/app前端埋点用户行为数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-17" value="web/app前端埋点用户行为数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-18" target="dPiE7eh1zPIa-c6Ro65R-20">
@@ -74,46 +74,46 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.033;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-18" target="dPiE7eh1zPIa-c6Ro65R-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-18" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-18" value="nginx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-20" target="dPiE7eh1zPIa-c6Ro65R-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-20" value="日志服务器文件&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-20" value="日志服务器文件&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-22" target="dPiE7eh1zPIa-c6Ro65R-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-22" value="日志服务器文件&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-22" value="日志服务器文件&lt;br&gt;(springboot)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="430" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-26" target="dPiE7eh1zPIa-c6Ro65R-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-26" value="日志文件&lt;br&gt;logFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-26" value="日志文件&lt;br&gt;logFile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="600" y="305" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-27" target="dPiE7eh1zPIa-c6Ro65R-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-27" value="日志文件&lt;br&gt;logFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-27" value="日志文件&lt;br&gt;logFile" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="600" y="405" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-30" value="日志采集&lt;br&gt;Flume" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-30" value="日志采集&lt;br&gt;Flume" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="710" y="305" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-31" value="日志采集&lt;br&gt;Flume" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-31" value="日志采集&lt;br&gt;Flume" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="710" y="405" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.725;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-34" target="dPiE7eh1zPIa-c6Ro65R-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-34" value="消息缓存&lt;br&gt;Kafka集群" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-34" value="消息缓存&lt;br&gt;Kafka集群" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="890" y="290" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-35" value="zookepper调度协调" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-35" value="zookepper调度协调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="1090" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-36" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.442;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-35">
@@ -139,13 +139,13 @@
             <mxPoint x="1590" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-42" value="集群存储&lt;br&gt;Hadoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-42" value="集群存储&lt;br&gt;Hadoop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1390" y="355" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-43" value="业务消费" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-43" value="业务消费" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="1210" y="305" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-44" value="日志消费" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-44" value="日志消费" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="1210" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.022;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-42">
@@ -172,7 +172,7 @@
             <mxPoint x="1160" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-51" value="增量同步&lt;br&gt;Maxwell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-51" value="增量同步&lt;br&gt;Maxwell" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="660" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.167;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-51">
@@ -211,19 +211,19 @@
             <mxPoint x="1850" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-59" value="数据应用层&lt;br&gt;ADS层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-59" value="数据应用层&lt;br&gt;ADS层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1660" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-60" value="汇总数据层&lt;br&gt;DWS层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-60" value="汇总数据层&lt;br&gt;DWS层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="1660" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-61" value="明细数据层&lt;br&gt;DWD层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-61" value="明细数据层&lt;br&gt;DWD层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1660" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-62" value="公共维度&lt;br&gt;DIM层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-62" value="公共维度&lt;br&gt;DIM层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1660" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-63" value="原始数据层&lt;br&gt;ODS层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-63" value="原始数据层&lt;br&gt;ODS层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1660" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;离线数仓&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -232,7 +232,7 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-67" target="dPiE7eh1zPIa-c6Ro65R-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;每日同步&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-67" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;每日同步&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1360" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-69" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-67">
@@ -247,10 +247,10 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-70" target="dPiE7eh1zPIa-c6Ro65R-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-70" value="数据结果&lt;br&gt;Mysql" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-70" value="数据结果&lt;br&gt;Mysql" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1360" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-72" value="离线可视化&lt;br&gt;Superset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-72" value="离线可视化&lt;br&gt;Superset" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1560" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-74">
@@ -270,7 +270,7 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-75" target="dPiE7eh1zPIa-c6Ro65R-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-75" value="Flink" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-75" value="Flink" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="765" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-76" target="dPiE7eh1zPIa-c6Ro65R-75">
@@ -282,7 +282,7 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-77" value="DWD层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="840" y="550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-82" value="旁路缓存&lt;br&gt;Redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-82" value="旁路缓存&lt;br&gt;Redis" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="510" y="770" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-85" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="dPiE7eh1zPIa-c6Ro65R-75">
@@ -294,10 +294,10 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-87" target="dPiE7eh1zPIa-c6Ro65R-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-87" value="维度数据&lt;br&gt;Phoenix + Hbase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-87" value="维度数据&lt;br&gt;Phoenix + Hbase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="745" y="770" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-90" value="查询宽表&lt;br&gt;ClickHouse" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-90" value="查询宽表&lt;br&gt;ClickHouse" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1030" y="770" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-92" value="dim层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -309,10 +309,10 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-94" target="dPiE7eh1zPIa-c6Ro65R-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-94" value="springboot数据服务接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-94" value="springboot数据服务接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="1320" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-96" value="实时可视化&lt;br&gt;Sugar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-96" value="实时可视化&lt;br&gt;Sugar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1550" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
