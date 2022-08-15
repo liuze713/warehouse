@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T06:51:07.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="HP92_q7X-53WavOh9BXs" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T06:52:06.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="GeSlToQTj_PkXqT0M7bt" version="20.2.3" type="github">
   <diagram id="mUF7Dhoywo7Pxl9o-WP5" name="第 1 页">
     <mxGraphModel dx="1384" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -226,7 +226,7 @@
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-63" value="原始数据层&lt;br&gt;ODS层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1660" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPiE7eh1zPIa-c6Ro65R-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;离线数仓&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-64" value="&lt;font color=&quot;#ff0080&quot; style=&quot;font-size: 20px;&quot;&gt;离线数仓&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1670" y="145" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="dPiE7eh1zPIa-c6Ro65R-67" target="dPiE7eh1zPIa-c6Ro65R-70">
@@ -314,6 +314,9 @@
         </mxCell>
         <mxCell id="dPiE7eh1zPIa-c6Ro65R-96" value="实时可视化&lt;br&gt;Sugar" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1550" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPiE7eh1zPIa-c6Ro65R-100" value="&lt;font color=&quot;#ff0080&quot; style=&quot;font-size: 20px;&quot;&gt;实时数仓&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="585" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
