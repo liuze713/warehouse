@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T07:59:09.323Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="qprZCuioWFGgPHd10Xhq" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T07:59:13.692Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="I3YaOqmAl9ZxkbP2gYfq" version="20.2.4" type="github">
   <diagram id="I1PyW80tJcdYEMSx6cHc" name="第 1 页">
     <mxGraphModel dx="14529" dy="5017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="-2320" y="-2780" width="311" height="208" as="geometry" />
         </mxCell>
         <mxCell id="node20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_sku  /* 活动参与商品 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_id  /* 活动id  */: bigint(20)&lt;br/&gt; sku_id  /* sku_id */: bigint(20)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-1770" y="-2956" width="242" height="130" as="geometry" />
+          <mxGeometry x="-1770" y="-2956" width="242" height="146" as="geometry" />
         </mxCell>
         <mxCell id="node13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;base_attr_info  /* 属性表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; attr_name  /* 属性名称 */: varchar(100)&lt;br/&gt; category_id  /* 分类id */: bigint(20)&lt;br/&gt; category_level  /* 分类层级 */: int(11)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-990" y="-2634" width="256" height="144" as="geometry" />
