@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T08:03:29.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="4l1BJiCre-182JvH33QK" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T08:03:42.809Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="3STMqQZczdqo85VxdGij" version="20.2.4" type="github">
   <diagram id="I1PyW80tJcdYEMSx6cHc" name="第 1 页">
     <mxGraphModel dx="14529" dy="5017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="node17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_info  /* 活动表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_name  /* 活动名称 */: varchar(200)&lt;br/&gt; activity_type  /* 活动类型（1：满减，2：折扣） */: varchar(10)&lt;br/&gt; activity_desc  /* 活动描述 */: varchar(2000)&lt;br/&gt; start_time  /* 开始时间 */: datetime&lt;br/&gt; end_time  /* 结束时间 */: datetime&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 活动id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-1830" y="-2760" width="376" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node9" target="node17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_rule  /* 优惠规则 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_id  /* 类型 */: int(11)&lt;br/&gt; activity_type  /* 活动类型 */: varchar(20)&lt;br/&gt; condition_amount  /* 满减金额 */: decimal(16,2)&lt;br/&gt; condition_num  /* 满减件数 */: bigint(20)&lt;br/&gt; benefit_amount  /* 优惠金额 */: decimal(16,2)&lt;br/&gt; benefit_discount  /* 优惠折扣 */: decimal(10,2)&lt;br/&gt; benefit_level  /* 优惠级别 */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: int(11)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-2190" y="-2934" width="311" height="208" as="geometry" />
