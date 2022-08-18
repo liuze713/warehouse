@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T08:12:09.490Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="-EujQ4OcZPKaJZWGLhqV" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T08:12:24.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="5R66ICujoEqhJlWNck4B" version="20.2.4" type="github">
   <diagram id="I1PyW80tJcdYEMSx6cHc" name="第 1 页">
     <mxGraphModel dx="14529" dy="5017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_rule  /* 优惠规则 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_id  /* 类型 */: int(11)&lt;br/&gt; activity_type  /* 活动类型 */: varchar(20)&lt;br/&gt; condition_amount  /* 满减金额 */: decimal(16,2)&lt;br/&gt; condition_num  /* 满减件数 */: bigint(20)&lt;br/&gt; benefit_amount  /* 优惠金额 */: decimal(16,2)&lt;br/&gt; benefit_discount  /* 优惠折扣 */: decimal(10,2)&lt;br/&gt; benefit_level  /* 优惠级别 */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: int(11)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-2260" y="-2860" width="311" height="208" as="geometry" />
+          <mxGeometry x="-2380" y="-2924" width="311" height="208" as="geometry" />
         </mxCell>
         <mxCell id="S1Js2mbnpHXQtX6JEDjQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;strokeWidth=5;" edge="1" parent="1" source="node20" target="node17">
           <mxGeometry relative="1" as="geometry" />
