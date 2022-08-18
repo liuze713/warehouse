@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T07:03:23.883Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="z3hAvDuUHCtaSETpXCW4" version="20.2.4" type="github"><diagram id="gIyWQ91Oxi5GOSBY0I38" name="第 1 页">dZHBDsIgDIafhjtS4wvMqRdPO3gmowIJWxeG2fTp3QJzkikXyvf3p6UwKJrx7GVnrqTQMcHVyODIhID9gU/bTJ6RCOAQifZWRbZbQWVfmGAy6odV2GeJgcgF2+WwprbFOmRMek9DnnYnl1ftpMYNqGrptvRmVTDpYXxeq3RBq03Yao1cHAn0RioavhCUDApPFGLUjAW6eYTLcKLv9Ef9dOexDT8MU7DePR2yf4LyDQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-18T07:44:03.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="wW8i27Hod2suNIOKsINt" version="20.2.4" type="github">
+  <diagram id="gIyWQ91Oxi5GOSBY0I38" name="第 1 页">
+    <mxGraphModel dx="1384" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800000" pageHeight="800000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9DEpsa6x3gQWegP_U7T2-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_info  /* 商品表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_name  /* 商品名称 */: varchar(200)&lt;br/&gt; description  /* 商品描述(后台简述） */: varchar(1000)&lt;br/&gt; category3_id  /* 三级分类id */: bigint(20)&lt;br/&gt; tm_id  /* 品牌id */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 商品id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="670" width="329" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
