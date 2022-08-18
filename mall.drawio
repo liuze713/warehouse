@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T07:44:03.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="wW8i27Hod2suNIOKsINt" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T07:45:21.177Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="9YvF8hk6bwIlFi102I7M" version="20.2.4" type="github">
   <diagram id="gIyWQ91Oxi5GOSBY0I38" name="第 1 页">
-    <mxGraphModel dx="1384" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800000" pageHeight="800000" math="0" shadow="0">
+    <mxGraphModel dx="2129" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800000" pageHeight="800000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9DEpsa6x3gQWegP_U7T2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.467;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9DEpsa6x3gQWegP_U7T2-2" target="9DEpsa6x3gQWegP_U7T2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9DEpsa6x3gQWegP_U7T2-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_info  /* 商品表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_name  /* 商品名称 */: varchar(200)&lt;br/&gt; description  /* 商品描述(后台简述） */: varchar(1000)&lt;br/&gt; category3_id  /* 三级分类id */: bigint(20)&lt;br/&gt; tm_id  /* 品牌id */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 商品id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="670" width="329" height="130" as="geometry" />
+          <mxGeometry x="1030" y="470" width="329" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9DEpsa6x3gQWegP_U7T2-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sku_info  /* 库存单元表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; price  /* 价格 */: decimal(10)&lt;br/&gt; sku_name  /* sku名称 */: varchar(200)&lt;br/&gt; sku_desc  /* 商品规格描述 */: varchar(2000)&lt;br/&gt; weight  /* 重量 */: decimal(10,2)&lt;br/&gt; tm_id  /* 品牌(冗余) */: bigint(20)&lt;br/&gt; category3_id  /* 三级分类id（冗余) */: bigint(20)&lt;br/&gt; sku_default_img  /* 默认显示图片(冗余) */: varchar(300)&lt;br/&gt; is_sale  /* 是否销售（1：是 0：否） */: tinyint(3)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 库存id(itemID) */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="780" width="352" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
