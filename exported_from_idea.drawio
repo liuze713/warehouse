@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T07:57:00.175Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="0ftSf4MgbCChRKUqskGI" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T07:57:26.434Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="LBzVfmd2ZUzDnmitUnoM" version="20.2.4" type="github">
   <diagram id="I1PyW80tJcdYEMSx6cHc" name="第 1 页">
     <mxGraphModel dx="14377" dy="4916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
       <root>
@@ -153,6 +153,12 @@
         </mxCell>
         <mxCell id="node34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ware_sku  /* sku与仓库关联表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sku_id  /* skuid */: bigint(20)&lt;br/&gt; warehouse_id  /* 仓库id */: bigint(20)&lt;br/&gt; stock  /* 库存数 */: int(11)&lt;br/&gt; stock_name  /* 存货名称 */: varchar(200)&lt;br/&gt; stock_locked  /* 锁定库存数 */: int(11)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-10399" y="959" width="270" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-12" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1440.5" y="-3030" as="sourcePoint" />
+            <mxPoint x="-1600" y="-3160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
