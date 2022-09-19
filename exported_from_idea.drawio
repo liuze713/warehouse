@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T08:19:57.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="b-YPIAywy4g6QVYBvNbz" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-19T07:21:55.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="kT8Es7EucbAKe0xTzE3h" version="20.2.4" type="github">
   <diagram id="I1PyW80tJcdYEMSx6cHc" name="第 1 页">
-    <mxGraphModel dx="40080" dy="22020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
+    <mxGraphModel dx="14916" dy="5275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="300000" pageHeight="300000" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="node17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_info  /* 活动表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_name  /* 活动名称 */: varchar(200)&lt;br/&gt; activity_type  /* 活动类型（1：满减，2：折扣） */: varchar(10)&lt;br/&gt; activity_desc  /* 活动描述 */: varchar(2000)&lt;br/&gt; start_time  /* 开始时间 */: datetime&lt;br/&gt; end_time  /* 结束时间 */: datetime&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 活动id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1917" y="-2760" width="376" height="186" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;strokeWidth=5;" edge="1" parent="1" source="node9" target="node17">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;strokeWidth=5;" parent="1" source="node9" target="node17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_rule  /* 优惠规则 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_id  /* 类型 */: int(11)&lt;br/&gt; activity_type  /* 活动类型 */: varchar(20)&lt;br/&gt; condition_amount  /* 满减金额 */: decimal(16,2)&lt;br/&gt; condition_num  /* 满减件数 */: bigint(20)&lt;br/&gt; benefit_amount  /* 优惠金额 */: decimal(16,2)&lt;br/&gt; benefit_discount  /* 优惠折扣 */: decimal(10,2)&lt;br/&gt; benefit_level  /* 优惠级别 */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: int(11)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-2380" y="-2924" width="311" height="208" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;strokeWidth=5;" edge="1" parent="1" source="node20" target="node17">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;strokeWidth=5;" parent="1" source="node20" target="node17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;strokeWidth=5;" edge="1" parent="1" source="node20" target="node12">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;strokeWidth=5;" parent="1" source="node20" target="node12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;activity_sku  /* 活动参与商品 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; activity_id  /* 活动id  */: bigint(20)&lt;br/&gt; sku_id  /* sku_id */: bigint(20)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1850" y="-3000" width="242" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3399;strokeWidth=5;" edge="1" parent="1" source="node13" target="node2">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3399;strokeWidth=5;" parent="1" source="node13" target="node2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;base_attr_info  /* 属性表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; attr_name  /* 属性名称 */: varchar(100)&lt;br/&gt; category_id  /* 分类id */: bigint(20)&lt;br/&gt; category_level  /* 分类层级 */: int(11)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
@@ -34,13 +34,13 @@
         <mxCell id="node19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;base_category1  /* 一级分类表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name  /* 分类名称 */: varchar(10)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1387" y="-2140" width="245" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node38" target="node19">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node38" target="node19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;base_category2  /* 二级分类表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name  /* 二级分类名称 */: varchar(200)&lt;br/&gt; category1_id  /* 一级分类编号 */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1402" y="-2400" width="277" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node2" target="node38">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node2" target="node38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;base_category3  /* 三级分类表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; name  /* 三级分类名称 */: varchar(200)&lt;br/&gt; category2_id  /* 二级分类编号 */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
@@ -76,7 +76,7 @@
         <mxCell id="node26" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;coupon_info  /* 优惠券表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; coupon_name  /* 购物券名称 */: varchar(100)&lt;br/&gt; coupon_type  /* 购物券类型 1 现金券 2 折扣券 3 满减券 4 满件打折券 */: varchar(10)&lt;br/&gt; condition_amount  /* 满额数（3） */: decimal(10,2)&lt;br/&gt; condition_num  /* 满件数（4） */: bigint(20)&lt;br/&gt; activity_id  /* 活动编号 */: bigint(20)&lt;br/&gt; benefit_amount  /* 减金额（1 3） */: decimal(16,2)&lt;br/&gt; benefit_discount  /* 折扣（2 4） */: decimal(10,2)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;br/&gt; range_type  /* 范围类型 1、商品(spuid) 2、品类(三级分类id) 3、品牌 */: varchar(10)&lt;br/&gt; limit_num  /* 最多领用次数 */: int(11)&lt;br/&gt; taken_count  /* 已领用次数 */: int(11)&lt;br/&gt; start_time  /* 可以领取的开始日期 */: datetime&lt;br/&gt; end_time  /* 可以领取的结束日期 */: datetime&lt;br/&gt; operate_time  /* 修改时间 */: datetime&lt;br/&gt; expire_time  /* 过期时间 */: datetime&lt;br/&gt; range_desc  /* 范围描述 */: varchar(500)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 购物券编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;strokeColor=#36393d;fillColor=#eeeeee;" parent="1" vertex="1">
           <mxGeometry x="-2710" y="-2390" width="482" height="406" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1A1A1A;strokeWidth=5;fillColor=#cdeb8b;" edge="1" parent="1" source="node22" target="node26">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1A1A1A;strokeWidth=5;fillColor=#cdeb8b;" parent="1" source="node22" target="node26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;coupon_range  /* 优惠券范围表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; coupon_id  /* 优惠券id */: bigint(20)&lt;br/&gt; range_type  /* 范围类型 1、商品(spuid) 2、品类(三级分类id) 3、品牌 */: varchar(10)&lt;br/&gt; range_id: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 购物券编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
@@ -118,7 +118,7 @@
         <mxCell id="node4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;seckill_goods&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* spu_id */: bigint(20)&lt;br/&gt; sku_id  /* sku_id */: bigint(20)&lt;br/&gt; sku_name  /* 标题 */: varchar(100)&lt;br/&gt; sku_default_img  /* 商品图片 */: varchar(150)&lt;br/&gt; price  /* 原价格 */: decimal(10,2)&lt;br/&gt; cost_price  /* 秒杀价格 */: decimal(10,2)&lt;br/&gt; create_time  /* 添加日期 */: datetime&lt;br/&gt; check_time  /* 审核日期 */: datetime&lt;br/&gt; status  /* 审核状态 */: varchar(1)&lt;br/&gt; start_time  /* 开始时间 */: datetime&lt;br/&gt; end_time  /* 结束时间 */: datetime&lt;br/&gt; num  /* 秒杀商品数 */: int(11)&lt;br/&gt; stock_count  /* 剩余库存数 */: int(11)&lt;br/&gt; sku_desc  /* 描述 */: varchar(2000)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-12113" y="-85" width="297" height="362" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node16" target="node45">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node16" target="node45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sku_attr_value  /* sku平台属性值关联表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; attr_id  /* 属性id（冗余) */: bigint(20)&lt;br/&gt; value_id  /* 属性值id */: bigint(20)&lt;br/&gt; sku_id  /* skuid */: bigint(20)&lt;br/&gt; attr_name  /* 属性名 */: varchar(30)&lt;br/&gt; value_name  /* 属性值名称 */: varchar(30)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
@@ -127,13 +127,13 @@
         <mxCell id="node37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sku_image  /* 库存单元图片表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sku_id  /* 商品id */: bigint(20)&lt;br/&gt; img_name  /* 图片名称（冗余） */: varchar(200)&lt;br/&gt; img_url  /* 图片路径(冗余) */: varchar(300)&lt;br/&gt; spu_img_id  /* 商品图片id */: bigint(20)&lt;br/&gt; is_default  /* 是否默认 */: varchar(4000)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-11174" y="965" width="302" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node12" target="node2">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node12" target="node2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sku_info  /* 库存单元表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; price  /* 价格 */: decimal(10)&lt;br/&gt; sku_name  /* sku名称 */: varchar(200)&lt;br/&gt; sku_desc  /* 商品规格描述 */: varchar(2000)&lt;br/&gt; weight  /* 重量 */: decimal(10,2)&lt;br/&gt; tm_id  /* 品牌(冗余) */: bigint(20)&lt;br/&gt; category3_id  /* 三级分类id（冗余) */: bigint(20)&lt;br/&gt; sku_default_img  /* 默认显示图片(冗余) */: varchar(300)&lt;br/&gt; is_sale  /* 是否销售（1：是 0：否） */: tinyint(3)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 库存id(itemID) */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="-1440.5" y="-3080" width="352" height="274" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node33" target="node36">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node33" target="node36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;sku_sale_attr_value  /* sku销售属性值 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sku_id  /* 库存单元id */: bigint(20)&lt;br/&gt; spu_id  /* spu_id(冗余) */: int(11)&lt;br/&gt; sale_attr_value_id  /* 销售属性值id */: bigint(20)&lt;br/&gt; sale_attr_id: bigint(20)&lt;br/&gt; sale_attr_name: varchar(30)&lt;br/&gt; sale_attr_value_name: varchar(30)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
@@ -142,7 +142,7 @@
         <mxCell id="node5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_image  /* 商品图片表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; img_name  /* 图片名称 */: varchar(200)&lt;br/&gt; img_url  /* 图片路径 */: varchar(300)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-10664" y="1189" width="258" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;strokeColor=#FF0080;" edge="1" parent="1" source="node15" target="node12">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=5;strokeColor=#FF0080;" parent="1" source="node15" target="node12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="node15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_info  /* 商品表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_name  /* 商品名称 */: varchar(200)&lt;br/&gt; description  /* 商品描述(后台简述） */: varchar(1000)&lt;br/&gt; category3_id  /* 三级分类id */: bigint(20)&lt;br/&gt; tm_id  /* 品牌id */: bigint(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 商品id */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillStyle=solid;fillColor=#cdeb8b;gradientDirection=north;strokeColor=#36393d;" parent="1" vertex="1">
@@ -151,21 +151,21 @@
         <mxCell id="node42" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_poster  /* 商品海报表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; img_name  /* 文件名称 */: varchar(200)&lt;br/&gt; img_url  /* 文件路径 */: varchar(200)&lt;br/&gt; create_time  /* 创建时间 */: datetime&lt;br/&gt; update_time  /* 更新时间 */: datetime&lt;br/&gt; is_deleted  /* 逻辑删除 1（true）已删除， 0（false）未删除 */: tinyint(3)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-12170" y="690" width="419" height="186" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node25">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1110" y="-3219" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="node25" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_sale_attr  /* spu销售属性 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; base_sale_attr_id  /* 销售属性id */: bigint(20)&lt;br/&gt; sale_attr_name  /* 销售属性名称(冗余) */: varchar(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号(业务中无关联) */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-1050" y="-3284" width="335" height="130" as="geometry" />
+          <mxGeometry x="-1050" y="-3284" width="335" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1" source="node36">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" source="node36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-710" y="-3213" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="node36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;spu_sale_attr_value  /* spu销售属性值 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; spu_id  /* 商品id */: bigint(20)&lt;br/&gt; base_sale_attr_id  /* 销售属性id */: bigint(20)&lt;br/&gt; sale_attr_value_name  /* 销售属性值名称 */: varchar(20)&lt;br/&gt; sale_attr_name  /* 销售属性名称(冗余) */: varchar(20)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 销售属性值编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="-658" y="-3284" width="358" height="142" as="geometry" />
+          <mxGeometry x="-658" y="-3330" width="358" height="188" as="geometry" />
         </mxCell>
         <mxCell id="node24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;user_address  /* 用户地址表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; user_id  /* 用户id */: bigint(20)&lt;br/&gt; province_id  /* 省份id */: bigint(20)&lt;br/&gt; user_address  /* 用户地址 */: varchar(500)&lt;br/&gt; consignee  /* 收件人 */: varchar(40)&lt;br/&gt; phone_num  /* 联系方式 */: varchar(40)&lt;br/&gt; is_default  /* 是否是默认 */: varchar(1)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-10403" y="699" width="279" height="186" as="geometry" />
@@ -185,49 +185,49 @@
         <mxCell id="node34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ware_sku  /* sku与仓库关联表 */&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; sku_id  /* skuid */: bigint(20)&lt;br/&gt; warehouse_id  /* 仓库id */: bigint(20)&lt;br/&gt; stock  /* 库存数 */: int(11)&lt;br/&gt; stock_name  /* 存货名称 */: varchar(200)&lt;br/&gt; stock_locked  /* 锁定库存数 */: int(11)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; id  /* 编号 */: bigint(20)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="-10399" y="959" width="270" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-12" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-12" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1430.5" y="-3010" as="sourcePoint" />
             <mxPoint x="-1590" y="-3140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-21" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="node12">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-21" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="node12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-635" y="-3020" as="sourcePoint" />
             <mxPoint x="-585" y="-3070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-22" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="node16" target="node12">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-22" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="node16" target="node12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-840" y="-2790" as="sourcePoint" />
             <mxPoint x="-790" y="-2840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-26" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;" edge="1" parent="1">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-26" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FF0080;strokeWidth=5;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-617.5" y="-2560" as="sourcePoint" />
             <mxPoint x="-730" y="-2560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-45" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="node2">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-45" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="node2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2228" y="-2574" as="sourcePoint" />
             <mxPoint x="-2178" y="-2624" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-46" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="node38">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-46" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="node38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2228" y="-2574" as="sourcePoint" />
             <mxPoint x="-2178" y="-2624" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-47" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="node19">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-47" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="node19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2228" y="-2574" as="sourcePoint" />
             <mxPoint x="-2178" y="-2624" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="node41">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="node41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2480" y="-2640" as="sourcePoint" />
             <mxPoint x="-2430" y="-2690" as="targetPoint" />
@@ -236,7 +236,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="node41">
+        <mxCell id="S1Js2mbnpHXQtX6JEDjQ-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=1;strokeColor=#1A1A1A;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="node41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2530" y="-2650" as="sourcePoint" />
             <mxPoint x="-1640" y="-3520" as="targetPoint" />
